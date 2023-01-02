@@ -65,7 +65,7 @@
     getgenv().BypassVersion = false
     
     -- Blox Fruits Variables
-        getgenv().Auto_Farm_Level = false;
+    --[[getgenv().Auto_Farm_Level = false;
     getgenv().Auto_New_World = false;
     getgenv().Auto_Third_World = false;
     getgenv().Auto_Farm_Chest = false;
@@ -186,7 +186,7 @@
     getgenv().FullBright = false
     getgenv().autoRejoin = false
     getgenv().ChestEspToggle = false
-    
+    --]]
 ([[
                 This script has been licensed using Luarmor
             Unauthorized distribution of this script is forbidden.
