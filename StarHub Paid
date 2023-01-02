@@ -1,31 +1,15 @@
     -- Yba Variables
-    local speedConstant = 1200 -- Speed here
-    local TS = game:GetService("TweenService")
-
-    local player = game.Players.LocalPlayer
-    local mouse = player:GetMouse()
-    local items = {}
-    local afkSpot = CFrame.new(-208, 284, 305) -- used in stand farm
-    local plyrName = game.Players.LocalPlayer.DisplayName
-    local RS = game:GetService("RunService")
-    local PlayersInGame = game.Players:GetChildren()
-    local NotifyItemTable = {}
-    local AutoSellItemsTable = {}
     print("Phase Before Values 1")
     getgenv().StandFarm = false
-    getgenv().shinyFarmOnly = false -- StandFarm also has to be enabled for this to work
-    
-        local GameId = game.PlaceId
+    getgenv().shinyFarmOnly = false -- StandFarm also has to be enabled for this to wo
 
     getgenv().AttachStand = false
     getgenv().StandTarget = false
     getgenv().autoFarmToggle = false
-    local FilterMoves_StandTarget = {"m1", "m2"} -- if user wants to use specific moves in stand target (m1 and m2 added by default)
 
     getgenv().NPCFarm = false
     getgenv().useStand_npcFarm = false
     getgenv().NPCFarmTarget = "Security Guard"
-    local FilterMoves = {"m1", "m2"}
 
     getgenv().QuestFarm = false
     getgenv().SelectedQuest = "Officer Sam [Lvl. 1+]"; -- default
