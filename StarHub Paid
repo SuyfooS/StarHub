@@ -4,13 +4,14 @@ else
     if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then -- blox fruit
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/df943e276c75781acdefcb3996c35db0.lua"))()
     else
-        if game.PlaceId == 3978370137 or game.PlaceId == 1730877806 or game.PlaceId == 7465136166 or game.PlaceId ==
-            11424731604 or -- gpo
-        game.PlaceId == 11424731604 then
+        if game.PlaceId == 3978370137 or game.PlaceId == 1730877806 or game.PlaceId == 7465136166 then -- gpo
             loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5cdcaaa74d21ebc83dbf137861743a53.lua"))()
-
         else
-            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/545c6bedebb08dc308fde0927e1339e0.lua"))()
+            if game.PlaceId == 11424731604 then -- Gpo BR
+                loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e6879123c68ebabfd2feeb44791ef08c.lua"))()
+            else
+                loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/545c6bedebb08dc308fde0927e1339e0.lua"))()
+            end
         end
     end
 end
